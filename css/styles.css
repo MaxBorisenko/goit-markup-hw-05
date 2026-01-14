@@ -489,6 +489,27 @@ button {
     margin-left: auto;
 }
 
+.subscribe-lable-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.subscribe-lable {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .subscribe-form {
     display: flex;
     flex-direction: row;
@@ -541,6 +562,7 @@ button {
     line-height: 2;
     letter-spacing: 0.04em;
     color: #fff;
+    transform: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-input::placeholder {
